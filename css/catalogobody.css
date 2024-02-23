@@ -3,6 +3,9 @@
   justify-content: space-around;
   flex-wrap: wrap;
   padding-bottom: 40px;
+  max-width: 1800px;
+  margin: auto;
+  gap: 15px;
 }
 .conteiner-venda img {
   width: 500px;
@@ -29,6 +32,11 @@
   bottom: 0px;
 }
 
+.menu-venda {
+  display: flex;
+  flex-direction: column;
+}
+
 .btn {
   color: #fff;
   background: linear-gradient(#fe7467, #fc3836);
@@ -42,4 +50,11 @@
 
 .conteiner-venda h1 {
   font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 20px;
+}
+
+.menu-venda p {
+  font-size: 18px;
 }
