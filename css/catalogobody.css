@@ -1,0 +1,45 @@
+.conteiner-venda {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+.conteiner-venda img {
+  width: 500px;
+}
+.titulo-catalogo {
+  color: #000000;
+  letter-spacing: 2px;
+  font-size: 2.5em;
+  width: max-content;
+  padding-top: 30px;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px;
+}
+.titulo-catalogo h1::after {
+  height: 10px;
+  border-bottom: 4px solid #fe7467;
+  content: " ";
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  bottom: 0px;
+}
+
+.btn {
+  color: #fff;
+  background: linear-gradient(#fe7467, #fc3836);
+  width: 130px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  font-size: medium;
+  font-weight: 700px;
+}
+
+.conteiner-venda h1 {
+  font-weight: bold;
+}

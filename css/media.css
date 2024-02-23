@@ -1,0 +1,81 @@
+@media screen and (max-width: 820px) {
+  .top-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 0px;
+  }
+  .top-menu .menu {
+    text-align: center;
+  }
+
+  .menu {
+    padding-left: 0px;
+  }
+
+  /* final do nav */
+  header {
+    background-image: url(../img/spidermanheader_mobile.jpg);
+    background-size: cover;
+    height: 740px;
+  }
+  /* final background */
+
+  .banner {
+    height: 568px;
+    align-items: end;
+    width: 40%;
+    margin-left: 59px;
+  }
+  .banner img {
+    width: 100%;
+  }
+
+  .banner-meio-pagina {
+    background-image: linear-gradient(#fe7467, #fc3836);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-meio-pagina .banner-thor-discript {
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+    font-size: medium;
+  }
+
+  .banner-meio-pagina p {
+    height: auto;
+    padding-top: 30px;
+    width: 70%;
+    margin: auto;
+  }
+  .banner-meio-pagina .banner-thor-title {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .bonecos .conteiner-descricao {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px 20px;
+    text-align: center;
+  }
+  .bonecos .conteiner-descricao .bonecos-botao {
+    padding-bottom: 65px;
+  }
+  .bonecos {
+    height: auto;
+  }
+  .bonecos .conteiner-descricao p {
+    width: 70%;
+    font-size: medium;
+    margin: 0 auto;
+    height: max-content;
+  }
+}
+/*enviocomprovante@telefonica.com.br enviocomprovante.br@telefonica.com */
+/*Nome completo cpf comprovante e telefone*/

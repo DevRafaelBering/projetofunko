@@ -1,0 +1,114 @@
+.conteiner-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contato-titulo {
+  color: #000000;
+  letter-spacing: 2px;
+  font-size: x-large;
+  width: max-content;
+  margin: 0 auto;
+  padding-top: 30px;
+  height: 40px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.contato-titulo h1::after {
+  height: 10px;
+  border-bottom: 4px solid #fe7467;
+  content: " ";
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  bottom: 0px;
+  margin-bottom: 9px;
+}
+.content-contato {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.conteiner-input {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 50px;
+  margin-bottom: 15px;
+}
+
+.conteiner-input .contato-formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteiner-input > * {
+  flex: 1;
+}
+
+.btn {
+  color: #fff;
+  background: linear-gradient(#fe7467, #fc3836);
+  width: 100%;
+  align-items: center;
+  font-size: 1em;
+  border: 1px #dee5ed solid;
+  border-radius: 8px;
+  padding: 0.6em;
+  margin-bottom: 15px;
+}
+
+article {
+  width: 80%;
+  margin: auto;
+}
+
+p {
+  font-size: 30px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.conteiner-input .contato-formulario .nome {
+  font-size: 1.2em;
+  color: #7b7979;
+  border: 1px #dee5ed solid;
+  border-radius: 8px;
+  padding: 0.6em;
+  margin-bottom: 15px;
+  width: 100%;
+  resize: none;
+}
+
+.conteiner-input .contato-formulario .email {
+  font-size: 1.2em;
+  color: #7b7979;
+  border: 1px #dee5ed solid;
+  border-radius: 8px;
+  padding: 0.6em;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.conteiner-input .contato-formulario .telefone {
+  font-size: 1.2em;
+  color: #7b7979;
+  border: 1px #dee5ed solid;
+  border-radius: 8px;
+  padding: 0.6em;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.conteiner-input .campo {
+  font-size: 1em;
+  color: #7b7979;
+  border: 1px #dee5ed solid;
+  border-radius: 8px;
+  width: 100%;
+  resize: none;
+}

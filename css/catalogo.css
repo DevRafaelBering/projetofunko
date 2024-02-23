@@ -1,0 +1,79 @@
+/* PADRAO FONT*/
+* {
+  font-family: sans-serif;
+}
+/*Cabecalho inicio */
+.catalogo-conteiner {
+  display: flex;
+  gap: 40px;
+}
+.logo-catalogo img {
+  padding-top: 10%;
+  width: 100px;
+}
+
+.menu-catalogo {
+  width: 100%;
+  padding-top: 1.5%;
+}
+
+.menu-item-catalogo {
+  display: inline;
+  padding: 10px;
+  border-radius: 6px;
+}
+.menu-item-catalogo a {
+  text-decoration: none;
+  padding: 1em 0.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.menu-catalogo .menu-item-catalogo.ativo a::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 1px solid #fe7467;
+}
+.ativo a {
+  position: relative;
+}
+.banner-catalogo img {
+  width: 100%;
+}
+
+.banner-catalogo {
+  display: flex;
+  position: absolute;
+  height: 800px;
+  width: 20%;
+  align-items: center;
+  margin-left: 90px;
+}
+
+header {
+  background-image: url(../img/captainmarvelheader.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100svh;
+  width: 100%;
+}
+
+.menu-catalogo a {
+  font-weight: 300;
+  padding-bottom: 5px;
+  position: relative;
+}
+.menu-catalogo a:hover:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 1px solid #fe7467;
+}

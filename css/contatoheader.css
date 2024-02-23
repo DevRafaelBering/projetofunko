@@ -1,0 +1,78 @@
+.conteiner-contato {
+  display: flex;
+  justify-content: left;
+  gap: 40px;
+}
+
+.logo-contato img {
+  padding-top: 10%;
+  width: 100px;
+}
+
+.nave-contato {
+  width: 100%;
+  padding-top: 1.5%;
+}
+.menu-item-contato {
+  display: inline;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.menu-item-contato a {
+  text-decoration: none;
+  padding: 1em 0.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nave-contato .menu-item-contato.ativo a::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 1px solid #fe7467;
+}
+
+.ativo a {
+  position: relative;
+}
+
+.banner-contato img {
+  width: 100%;
+}
+
+.banner-contato {
+  display: flex;
+  position: absolute;
+  height: 800px;
+  width: 20%;
+  align-items: center;
+  margin-left: 90px;
+}
+
+header {
+  background-image: url(../img/contatoheader.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100svh;
+}
+
+.nave-contato a {
+  font-weight: 300;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.nave-contato a:hover:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 1px solid #fe7467;
+}

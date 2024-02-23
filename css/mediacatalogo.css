@@ -1,0 +1,39 @@
+@media screen and (max-width: 820px) {
+  .catalogo-conteiner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .menu-catalogo {
+    padding-left: 0px;
+  }
+  .catalogo-conteiner .menu-catalogo {
+    text-align: center;
+  }
+  header {
+    background-image: url(../img/captainmarvelheader_Mobile.jpg);
+    height: 650px;
+  }
+  .banner-catalogo {
+    display: none;
+  }
+  .conteiner-venda img {
+    width: 380px;
+  }
+  .menu-venda {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .content-discript {
+    align-items: start;
+  }
+
+  p {
+    padding-left: 5px;
+  }
+  h1 {
+    padding-left: 5px;
+  }
+}
